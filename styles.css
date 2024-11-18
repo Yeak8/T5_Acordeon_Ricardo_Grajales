@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  .opensans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .poppinslight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }  
+  
+  .titulo{
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .textosimple{
+    font-family: "Poppins", sans-serif;
+  }
+  .porcentaje{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .contenedor {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .preguntas-frecuentes, .habilidades {
+    width: 45%;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .acordeon-item {
+    margin-bottom: 10px;
+  }
+  
+  .acordeon-titulo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    text-align: left;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .acordeon-titulo:hover {
+    background-color: #ddd;
+  }
+  
+  .acordeon-contenido {
+    display: none;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+  }
+  
+  .habilidad {
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 15px;
+  }
+  
+  .barra {
+    background-color: #ddd;
+    border-radius: 5px;
+    height: 2px;
+  }
+  
+  .barra-progreso {
+    height: 2px;
+    border-radius: 5px;
+  }
+  
+  .barra-azul {
+    background-color: #4250f1;
+  }
+  
+  .barra-amarillo {
+    background-color: #f2e28d;
+  }
+  
+  .barra-rosa {
+    background-color: #f9c5d8;
+  }
+  
+  .barra-verde {
+    background-color: #9de4c2;
+  }
+  
+  .icono-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: #3142ef;
+    color: white;
+    border-radius: 30%;
+  }
+  
+  .icono-contenedor i {
+    color: #ffffff;
+    font-size: 14px;
+  }
+  
+  
